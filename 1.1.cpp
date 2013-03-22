@@ -19,6 +19,9 @@ bool isUnique(bitset<MAXM> flg, string str)
 		if (flg[str[i]])
 			return 0;
 		flg[str[i]] = 1;
+
+		//change1;
+		flg[str[i]] = 1;
 	}
 	return 1;
 }
