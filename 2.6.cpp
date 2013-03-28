@@ -114,7 +114,7 @@ LinkedList::~LinkedList()
 			p = q;
 			q = q->next;
 		}
-		delete q;
+		delete p;
 	}
 }
 
